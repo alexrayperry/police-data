@@ -1,0 +1,15 @@
+DROP TABLE "police_data";
+
+
+CREATE TABLE "police_data" (
+    "date" date   NOT NULL,
+	"time" time   NOT NULL,
+	"service_area" varchar(20) NOT NULL, 
+    "subject_age" varchar(20) NOT NULL,
+	"subject_race" varchar (50)   NOT NULL,
+    "subject_sex" varchar (50)   NOT NULL,
+    "arrest_made" varchar (20) NOT NULL,
+	"citation_issued" varchar (20) NOT NULL,
+	"warning_issued" varchar (20) NOT NULL,
+	"outcome" varchar (20) NOT NULL
+);
